@@ -12,6 +12,10 @@ export default {
             format: 'cjs',
         },
     ],
+    external: [
+        'fs',
+        'util',
+    ],
     plugins: [
         resolve(),
     ],
