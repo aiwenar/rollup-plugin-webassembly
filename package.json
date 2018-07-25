@@ -1,0 +1,16 @@
+{
+  "name": "rollup-plugin-webassembly",
+  "version": "0.1.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "license": "MIT",
+  "author": "Krzysztof Mędrzycki",
+  "keywords": [
+    "rollup-plugin",
+    "wasm",
+    "webassembly"
+  ],
+  "devDependencies": {
+    "rollup": "^0.63.4"
+  }
+}
