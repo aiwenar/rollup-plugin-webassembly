@@ -15,6 +15,8 @@ import wasm from 'rollup-plugin-webassembly'
 export default {
   plugins: [
     wasm({
+      include: '**/*.wasm',
+      exclude: null,
     }),
   ],
 }

@@ -14,6 +14,7 @@ export default {
     ],
     external: [
         'fs',
+        'rollup-pluginutils',
         'util',
     ],
     plugins: [
