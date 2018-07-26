@@ -13,6 +13,8 @@ export default {
         },
     ],
     external: [
+        '@webassemblyjs/ast',
+        '@webassemblyjs/wasm-parser',
         'fs',
         'rollup-pluginutils',
         'util',
