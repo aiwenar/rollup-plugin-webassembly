@@ -17,6 +17,7 @@ export default {
     wasm({
       include: '**/*.wasm',
       exclude: null,
+      sync: false,
     }),
   ],
 }
