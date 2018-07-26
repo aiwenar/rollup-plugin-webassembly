@@ -10,7 +10,9 @@
     "wasm",
     "webassembly"
   ],
-  "devDependencies": {
-    "rollup": "^0.63.4"
+  "dependencies": {
+    "@webassemblyjs/ast": "^1.7.4",
+    "@webassemblyjs/wasm-parser": "^1.7.4",
+    "rollup-pluginutils": "^2.3.0"
   }
 }
